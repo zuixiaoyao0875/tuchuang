@@ -1,4 +1,4 @@
-﻿	html, body {
+	html, body {
         height: 100%;
     }
 	body {
@@ -33,7 +33,7 @@
 		display: block;
 		line-height: 45px;
 		border-radius: 2px;
-		font-size: 14px;
+		fontsize: 14px;
 		color: #0d0d0d;
 		transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;
@@ -47,7 +47,7 @@
 		background: #fff;
 	}
 	.dhname {
-		font-size: 16px;
+		fontsize: 16px;
 		font-weight: 400;
 		color: #f8f1f1;
 		display: block;
@@ -56,12 +56,12 @@
 	.sousuo {
 		padding: 35px 0;
 	}
-	.search {
+	.searchnav {
 		position: relative;
 		width: 100%;
 		margin: 0 auto;
 	}
-	.search-box {
+	.searchnav-box {
 		height: 50px;
 		/* box-shadow: 0px 0px 2px 0px #ccc; */
 		border-radius: 10px;
@@ -71,7 +71,7 @@
 		flex-wrap: wrap;
 		border: 1px solid #e6e6e6;
 	}
-	.search-icon {
+	.searchnav-icon {
 		position: absolute;
 		left: 3px;
 		top: 5px;
@@ -81,28 +81,28 @@
 		border-radius: 25px;
 		cursor: pointer;
 	}
-	.search-input {
+	.searchnav-input {
 		box-sizing: border-box;
 		flex: 1;
 		height: 50px;
 		line-height: 50px;
-		font-size: 16px;
+		fontsize: 16px;
 		color: #999;
 		border: none;
 		outline: none;
 		padding-left: 45px;
 	}
-	.search-clear {
+	.searchnav-clear {
 		position: absolute;
 		right: 15px;
 		top: 50%;
-		font-size: 20px;
+		fontsize: 20px;
 		color: #999999;
 		margin-top: -10px;
 		cursor: pointer;
 		display: none;
 	}
-	.search-engine {
+	.searchnav-engine {
 		position: absolute;
 		top: 60px;
 		left: 0;
@@ -115,26 +115,26 @@
 		display: none;
 		z-index: 999;
 	}
-	.search-engine-head {
+	.searchnav-engine-head {
 		overflow: hidden;
 		margin-bottom: 10px;
 		padding-right: 15px;
 	}
-	.search-engine-tit {
+	.searchnav-engine-tit {
 		float: left;
 		margin: 0;
-		font-size: 14px;
+		fontsize: 14px;
 		color: #999;
 	}
-	.search-engine-tool {
+	.searchnav-engine-tool {
 		float: right;
-		font-size: 12px;
+		fontsize: 12px;
 		color: #999;
 	}
-	.search-engine-tool > span.off {
+	.searchnav-engine-tool > span.off {
 		background-position: -30px 0px;
 	}
-	.search-engine-tool > span {
+	.searchnav-engine-tool > span {
 		float: right;
 		display: inline-block;
 		width: 25px;
@@ -142,7 +142,7 @@
 		background: url(../images/off_on.png) no-repeat 0px 0px;
 		cursor: pointer;
 	}
-	.search-engine-list::after {
+	.searchnav-engine-list::after {
 		content: '';
 		width: 70px;
 		height: 18px;
@@ -150,11 +150,11 @@
 		top: -17px;
 		left: 1px;
 	}
-	.search-engine-list li {
+	.searchnav-engine-list li {
 		float: left;
 		width: 30%;
 		line-height: 30px;
-		font-size: 14px;
+		fontsize: 14px;
 		padding: 5px 10px 5px 10px;
 		margin: 0 10px 10px 0;
 		background: #f9f9f9;
@@ -162,10 +162,10 @@
 		cursor: pointer;
 		list-style: none;
 	}
-	.search-engine ul {
+	.searchnav-engine ul {
 		padding: 0;
 	}
-	.search-engine-list li img {
+	.searchnav-engine-list li img {
 		width: 25px;
 		height: 25px;
 		border-radius: 15px;
@@ -173,7 +173,7 @@
 		margin-right: 5px;
 		margin-top: 2.5px;
 	}
-	.search-engine ul::before {
+	.searchnav-engine ul::before {
 		content: '';
 		width: 0px;
 		height: 0px;
@@ -184,7 +184,7 @@
 		border-bottom: 8px solid #fff;
 		border-left: 8px solid transparent;
 	}
-	.search-btn {
+	.searchnav-btn {
 		width: 80px;
 		height: 50px;
 		background: #fff;
@@ -197,7 +197,7 @@
 	.hidden-xs {
 		display: block!important;
 	}
-	.search-hot-text {
+	.searchnav-hot-text {
 		position: absolute;
 		z-index: 100;
 		width: 100%;
@@ -205,15 +205,15 @@
 		background: #FFF;
 		box-shadow: 0px 4px 5px 0px #cccccc94;
 	}
-	.search-hot-text ul li {
+	.searchnav-hot-text ul li {
 		border-top: 1px solid #f2f2f2;
 		line-height: 30px;
-		font-size: 14px;
+		fontsize: 14px;
 		padding: 0px 25px;
 		color: #777;
 		cursor: pointer;
 	}
-	.search-hot-text ul {
+	.searchnav-hot-text ul {
 		margin: 0;
 	}
 	.mb-2, .my-2 {
@@ -250,7 +250,7 @@
 		padding: 0 10px;
 	}
 	header .logo {
-		font-size: 20px;
+		fontsize: 20px;
 		margin: 0;
 		font-weight: 400;
 		text-align: center;
@@ -361,7 +361,7 @@
 	header .nav a {
 		display: block;
 		line-height: 40px;
-		font-size: 16px;
+		fontsize: 16px;
 		color: #959595;
 		padding: 0 25px;
 		border-bottom: 1px solid #f5f5f5;
@@ -473,19 +473,19 @@
 		bottom: 55px;
 		line-height: 30px;
 		text-align: center;
-		font-size: 30px;
+		fontsize: 30px;
 		cursor: pointer;
 		display: none;
 		z-index: 100;
 	}
 	#get-top i {
 		margin: 0;
-		font-size: 20px;
+		fontsize: 20px;
 	}
 	.footer {
 		width: 100%;
 		background-color: #fff;
-		font-size: 13px;
+		fontsize: 13px;
 		padding-top: 15px;
 		margin-top: -50px;
         height: 50px;
@@ -496,17 +496,17 @@
 		color: #959595;
 	}	
 	@media (min-width: 992px){
-		.search {
+		.searchnav {
 			width: 650px;
 		}
-		.search-engine {
+		.searchnav-engine {
 			width: 650px;
 		}
-		.search-engine-list li {
+		.searchnav-engine-list li {
 			width: 112px;
 			margin: 0 15px 15px 0;
 		}
-		.search-hot-text {
+		.searchnav-hot-text {
 			width: 559px;
 			margin-left: 10px;
 		}
@@ -523,7 +523,7 @@
 		}
 		header .logo {
 			float: left;
-			font-size: 27px;
+			fontsize: 27px;
 			margin: 0;
 			font-weight: 400;
 			border: none;
@@ -551,7 +551,7 @@
 		}
 		header .nav li {
 			float: left;
-			font-size: 16px;
+			fontsize: 16px;
 		}
 		header .nav a {
 			display: block;
@@ -577,7 +577,7 @@
 			padding: 10px 0 50px 0;
 			margin-top: 0;
 		}
-		.search-clear {
+		.searchnav-clear {
 			right: 95px;
 		}
 	}
